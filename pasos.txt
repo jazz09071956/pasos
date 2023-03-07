@@ -2,3 +2,23 @@ Git init
 Git status
 Git add pasos.txt
 Git rm --cached pasos.txt
+Git commit -m "se agrego un paso mas"
+para cambiar la configuracion
+Git config --global --edit
+si se quiere cambiar el autor despues de haber cambiado la configuracion
+Git commit --amend --reset-author
+para revisar e historial
+Git log
+que tiene sus variantes
+Git log --oneline
+Git log --graph
+crear el repositorio en la nube en github.com y luego
+git remote add origin https://github.com/jazz09071956/pasos.git
+generar las llaves
+ssh-keygen
+colocar la llave publica en el perfil de github
+git push -u origin master
+los posteriores solamente
+Git add pasos.txt
+git push
+
