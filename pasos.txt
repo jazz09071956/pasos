@@ -1,0 +1,4 @@
+Git init
+Git status
+Git add pasos.txt
+Git rm --cached pasos.txt
